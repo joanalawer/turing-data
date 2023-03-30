@@ -6,17 +6,17 @@ import matplotlib.pyplot as plt
 # %matplotlib inline
 
 # Overview of Dataset
-covid_df = pd.read_csv("cardio_alco.csv")
-covid_df.head()
+covid_df = pd.read_csv("covid_data.csv")
+print(covid_df.head(), '\n')
 
-covid_df.shape
+print(covid_df.shape, '\n')
 
-covid_df.info()
+print(covid_df.info(), '\n')
 
-covid_df.describe()
+print(covid_df.describe(), '\n')
 
 # Numerical analysis and visualisation
 #Analyse on a column
-covid_df['']
+
 
 # Categorical analyses and visualisation
